@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="kitty">KittyCat!</string>
+    <string name="Meow">.MEOW.</string>
+    <string name="prr">"Prr..."</string>
+    <string name="grr">"Grr..."</string>
+
+
+</resources>

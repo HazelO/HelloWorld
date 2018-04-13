@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_kitty"
+        android:title="@string/kitty"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_meow"
+        android:title="@string/Meow"/>
+
+
+    <group android:checkableBehavior="single">
+        <item
+        android:checked="true"
+        android:id="@+id/menu_prr"
+        android:title="@string/prr"/>
+
+    <item
+        android:id="@+id/menu_grr"
+        android:title="@string/grr"/>
+    </group>
+
+</menu>
