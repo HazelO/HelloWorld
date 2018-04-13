@@ -167,7 +167,7 @@ jobs:
       - *decode_gcloud_key
       - run:
           name: Set Google Cloud target project
-          command: gcloud config set project weeklyprojectdemo
+          command: gcloud config set project helloworld-71f9b
       - run:
           name: Authenticate with Google Cloud
           command: gcloud auth activate-service-account firebase-adminsdk-qq1t5@helloworld-71f9b.iam.gserviceaccount.com --key-file ${HOME}/client-secret.json
